@@ -130,6 +130,12 @@ export const MENU: MenuItem[] = [
                 label: 'MENUITEMS.TABLES.LIST.ADVANCED',
                 link: '/tables/advanced',
                 parentId: 57
+            },
+            {
+                id: 60,
+                label: 'Acciones',
+                link: '/tables/accion',
+                parentId: 57
             }
         ]
     },
