@@ -2,28 +2,39 @@
   <app-pagetitle title="Certificado Empleado" [breadcrumbItems]="breadCrumbItems"></app-pagetitle>
 
   <div class="row">
-    <div class="col-lg-6">
+    <div class="col-lg-12">
       <div class="card">
         <div class="card-body">
-      
-      <div class="mb-3">
-        <label for="exampleFormControlInput1" class="form-label">Email address</label>
-        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
-      </div>
-      <div class="mb-3">
-        <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
-        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-      </div>
+    
+          <form class="row g-3">
+            <div class="col-md-4">
+              <label for="inputEmail4" class="form-label">Cedula</label>
+              <input type="text" class="form-control" id="formGroupExampleInput">
+            </div>
+            <div class="col-md-4">
+              <label for="inputPassword4" class="form-label">Nombre</label>
+              <input type="text" class="form-control" id="formGroupExampleInput">
+            </div>
+            <div class="col-md-4">
+              <label for="inputEmail4" class="form-label">Apellido</label>
+              <input type="text" class="form-control" id="formGroupExampleInput">
+            </div>
+          
+            <div class="col-12">
+            <br>
+              <button class="btn btn-primary" type="submit">Buscar</button>
+            </div>
+          </form>
+    
       </div>
     </div>
   </div>
     <div class="col-lg-12">
       <div class="card">
         <div class="card-body">
-          <h4 class="card-title">Responsive Tables</h4>
+          <h4 class="card-title">Empleados</h4>
           <p class="card-title-desc">
-            Create responsive tables by wrapping any <code>.table</code> in <code>.table-responsive</code>
-            to make them scroll horizontally on small devices (under 768px).
+            Generador de Certificados.
           </p>
 
           <div class="table-responsive">
@@ -74,6 +85,36 @@
         </div>
       </div>
     </div>
+
+    <div class="col-lg-12">
+      <div class="card">
+        <div class="card-body">
+    
+          <form class="row row-cols-lg-auto g-3 align-items-center">
+          
+          
+            <div class="col-6">
+              <label class="visually-hidden" for="inlineFormSelectPref">Certificado</label>
+              <select class="form-select ng-select" id="inlineFormSelectPref">
+                <option selected>Saleccionar...</option>
+                <option value="1">One</option>
+                <option value="2">Two</option>
+                <option value="3">Three</option>
+              </select>
+            </div>
+          
+
+          
+            <div class="col-6">
+              <button type="submit" class="btn btn-primary">Generar</button>
+            </div>
+            
+          </form>
+    
+      </div>
+    </div>
+  </div>
+  
   </div>
   <!-- end row -->
 </div>
