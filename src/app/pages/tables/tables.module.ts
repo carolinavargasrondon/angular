@@ -7,7 +7,7 @@ import { NgbPaginationModule, NgbTypeaheadModule, NgbDropdownModule } from '@ng-
 
 import { TablesRoutingModule } from './tables-routing.module';
 import { AdvancedSortableDirective } from './advancedtable/advanced-sortable.directive';
-import { BasicComponent } from './check/basic.component';
+import { BasicComponent } from './certificado/basic.component';
 import { AdvancedtableComponent } from './advancedtable/advancedtable.component';
 
 @NgModule({

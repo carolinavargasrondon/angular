@@ -1,5 +1,5 @@
 <div class="container-fluid">
-  <app-pagetitle title="Certificado Empleado" [breadcrumbItems]="breadCrumbItems"></app-pagetitle>
+  <app-pagetitle title="Accion Empleados" ></app-pagetitle>
 
   <div class="row">
     <div class="col-lg-12">
@@ -32,9 +32,8 @@
     <div class="col-lg-12">
       <div class="card">
         <div class="card-body">
-          <h4 class="card-title">Empleados</h4>
+          <h4 class="card-title"> Acción de Personal</h4>
           <p class="card-title-desc">
-            Generador de Certificados.
           </p>
 
           <div class="table-responsive">
@@ -90,17 +89,270 @@
       <div class="card">
         <div class="card-body">
     
-          <form class="row row-cols-lg-auto g-3 align-items-center">
           
           
-            <div class="col-6">
-              <label class="visually-hidden" for="inlineFormSelectPref">Certificado</label>
-              <select class="form-select ng-select" id="inlineFormSelectPref">
-                <option selected>Saleccionar...</option>
-                <option value="1">One</option>
-                <option value="2">Two</option>
-                <option value="3">Three</option>
-              </select>
+            <div class="col-lg-12">
+              <div class="card">
+                <div class="card-body">
+                  <h4 class="card-title mb-4">Naturaleza de la acción</h4>
+        
+                  <div class="row">
+                    <div class="col-md-3">
+                      <div>
+                        <h5 class="font-size-14 mb-4">DESIGNACION</h5>
+                        <div class="form-check mb-3">
+                          <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1"
+                            checked>
+                          <label class="form-check-label" for="exampleRadios1">
+                         Nombram. Ordinario</label>
+                        </div>
+                        <div class="form-check mb-3">
+                          <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1"
+                            checked>
+                          <label class="form-check-label" for="exampleRadios1">
+                            Nombram. Nominal</label>
+                        </div>
+                        <div class="form-check mb-3">
+                          <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1"
+                            checked>
+                          <label class="form-check-label" for="exampleRadios1">
+                            Por Contrato</label>
+                        </div>
+                        <div class="form-check mb-3">
+                          <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1"
+                            checked>
+                          <label class="form-check-label" for="exampleRadios1">
+                         Suplencia o Interino</label>
+                        </div>
+                        <div class="form-check mb-3">
+                          <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1"
+                            checked>
+                          <label class="form-check-label" for="exampleRadios1">
+                         Periodo Probatorio</label>
+                        </div>
+
+                      </div>
+                    </div>
+                    <div class="col-md-3">
+                      <div>
+                        <h5 class="font-size-14 mb-4">CAMBIOS</h5>
+                        <div class="form-check mb-3">
+                          <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1"
+                            checked>
+                          <label class="form-check-label" for="exampleRadios1">
+                         Ascenso</label>
+                        </div>
+                        <div class="form-check mb-3">
+                          <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1"
+                            checked>
+                          <label class="form-check-label" for="exampleRadios1">
+                         Reclasificación</label>
+                        </div>
+                        <div class="form-check mb-3">
+                          <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1"
+                            checked>
+                          <label class="form-check-label" for="exampleRadios1">
+                         Aumento Sueldo</label>
+                        </div>
+                        <div class="form-check mb-3">
+                          <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1"
+                            checked>
+                          <label class="form-check-label" for="exampleRadios1">
+                         Traslado</label>
+                        </div>
+                        <div class="form-check mb-3">
+                          <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1"
+                            checked>
+                          <label class="form-check-label" for="exampleRadios1">
+                         Reintegro</label>
+                        </div>
+
+                      </div>
+                    </div>
+                    <div class="col-md-3">
+                      <div>
+                        <h5 class="font-size-14 mb-4">VACACIONES Y LICENCIAS</h5>
+                        <div class="form-check mb-3">
+                          <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1"
+                            checked>
+                          <label class="form-check-label" for="exampleRadios1">
+                         Vacaciones</label>
+                        </div>
+                        <div class="form-check mb-3">
+                          <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1"
+                            checked>
+                          <label class="form-check-label" for="exampleRadios1">
+                         Licen. con Sueldo</label>
+                        </div>
+                        <div class="form-check mb-3">
+                          <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1"
+                            checked>
+                          <label class="form-check-label" for="exampleRadios1">
+                            Licen. sin Sueldo</label>
+                        </div>
+                        <div class="form-check mb-3">
+                          <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1"
+                            checked>
+                          <label class="form-check-label" for="exampleRadios1">
+                            Licen. por Enfermedad</label>
+                        </div>
+                        <div class="form-check mb-3">
+                          <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1"
+                            checked>
+                          <label class="form-check-label" for="exampleRadios1">
+                            Licen. por Maternidad</label>
+                        </div>
+                        <div class="form-check mb-3">
+                          <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1"
+                            checked>
+                          <label class="form-check-label" for="exampleRadios1">
+                            Licen. por Estudios</label>
+                        </div>
+                        <div class="form-check mb-3">
+                          <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1"
+                            checked>
+                          <label class="form-check-label" for="exampleRadios1">
+                            Licen. Especial</label>
+                        </div>
+                        <div class="form-check mb-3">
+                          <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1"
+                            checked>
+                          <label class="form-check-label" for="exampleRadios1">
+                            Licen. Estudios</label>
+                        </div>
+
+                      </div>
+                    </div>
+                    <div class="col-md-3">
+                      <div>
+                        <h5 class="font-size-14 mb-4">DISCIPLINA</h5>
+                        <div class="form-check mb-3">
+                          <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1"
+                            checked>
+                          <label class="form-check-label" for="exampleRadios1">
+                         Descuento</label>
+                        </div>
+                        <div class="form-check mb-3">
+                          <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1"
+                            checked>
+                          <label class="form-check-label" for="exampleRadios1">
+                         Amonestación Escrita</label>
+                        </div>
+                        <div class="form-check mb-3">
+                          <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1"
+                            checked>
+                          <label class="form-check-label" for="exampleRadios1">
+                         Suspensión Transitoria</label>
+                        </div>
+                      
+                      </div>
+                    </div>
+                    <div class="col-md-3">
+                      <div>
+                        <h5 class="font-size-14 mb-4">SEPARACION SERVICIO</h5>
+                        <div class="form-check mb-3">
+                          <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1"
+                            checked>
+                          <label class="form-check-label" for="exampleRadios1">
+                         Renuncia</label>
+                        </div>
+                        <div class="form-check mb-3">
+                          <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1"
+                            checked>
+                          <label class="form-check-label" for="exampleRadios1">
+                         Jubilación</label>
+                        </div>
+                        <div class="form-check mb-3">
+                          <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1"
+                            checked>
+                          <label class="form-check-label" for="exampleRadios1">
+                         Terminación Contrato</label>
+                        </div>
+                        <div class="form-check mb-3">
+                          <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1"
+                            checked>
+                          <label class="form-check-label" for="exampleRadios1">
+                         Supresión del Cargo</label>
+                        </div>
+                        <div class="form-check mb-3">
+                          <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1"
+                            checked>
+                          <label class="form-check-label" for="exampleRadios1">
+                         Abandono del Cargo</label>
+                        </div>
+                        <div class="form-check mb-3">
+                          <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1"
+                            checked>
+                          <label class="form-check-label" for="exampleRadios1">
+                         Destitución</label>
+                        </div>
+                        <div class="form-check mb-3">
+                          <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1"
+                            checked>
+                          <label class="form-check-label" for="exampleRadios1">
+                         Fallecimiento</label>
+                        </div>
+                        <div class="form-check mb-3">
+                          <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1"
+                            checked>
+                          <label class="form-check-label" for="exampleRadios1">
+                         Invalidez</label>
+                        </div>
+
+                      </div>
+                    </div>
+                    <div class="col-md-3">
+                      <div>
+                        <h5 class="font-size-14 mb-4">OTRAS ACCIONES</h5>
+                        <div class="form-check mb-3">
+                          <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1"
+                            checked>
+                          <label class="form-check-label" for="exampleRadios1">
+                         Prestaciones Laborales</label>
+                        </div>
+                        <div class="form-check mb-3">
+                          <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1"
+                            checked>
+                          <label class="form-check-label" for="exampleRadios1">
+                         Cambios </label>
+                        </div>
+                        <div class="form-check mb-3">
+                          <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1"
+                            checked>
+                          <label class="form-check-label" for="exampleRadios1">
+                         Reconocimiento</label>
+                        </div>
+                        <div class="form-check mb-3">
+                          <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1"
+                            checked>
+                          <label class="form-check-label" for="exampleRadios1">
+                         Permisos Estudio</label>
+                        </div>
+                        <div class="form-check mb-3">
+                          <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1"
+                            checked>
+                          <label class="form-check-label" for="exampleRadios1">
+                         Permisos Matrimonio</label>
+                        </div>
+                        <div class="form-check mb-3">
+                          <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1"
+                            checked>
+                          <label class="form-check-label" for="exampleRadios1">
+                         Permisos Fallecimiento</label>
+                        </div>
+                        <div class="form-check mb-3">
+                          <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1"
+                            checked>
+                          <label class="form-check-label" for="exampleRadios1">
+                          Otras</label>
+                        </div>
+
+                      </div>
+                    </div>
+                    
+                  </div>
+                </div>
+              </div>
             </div>
           
 
@@ -109,7 +361,6 @@
               <button type="submit" class="btn btn-primary">Generar</button>
             </div>
             
-          </form>
     
       </div>
     </div>
