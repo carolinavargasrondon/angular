@@ -6,12 +6,10 @@ import { UiModule } from '../../shared/ui/ui.module';
 import { NgbPaginationModule, NgbTypeaheadModule, NgbDropdownModule } from '@ng-bootstrap/ng-bootstrap';
 
 import { TablesRoutingModule } from './tables-routing.module';
-import { AdvancedSortableDirective } from './advancedtable/advanced-sortable.directive';
 import { BasicComponent } from './certificado/basic.component';
-import { AdvancedtableComponent } from './advancedtable/advancedtable.component';
 
 @NgModule({
-  declarations: [BasicComponent, AdvancedtableComponent, AdvancedSortableDirective],
+  declarations: [BasicComponent],
   imports: [
     CommonModule,
     TablesRoutingModule,

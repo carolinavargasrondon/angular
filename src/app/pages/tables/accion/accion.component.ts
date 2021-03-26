@@ -11,5 +11,11 @@ import { Component, OnInit } from '@angular/core';
  */
 export class AccionComponente implements OnInit {
   // bread crumb items
- 
+  breadCrumbItems: Array<{}>;
+
+  constructor() { }
+
+  ngOnInit() {
+    this.breadCrumbItems = [{ label: 'subcaro' }, { label: 'caro', active: true }];
+  }
 }

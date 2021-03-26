@@ -3,7 +3,6 @@ import { Routes, RouterModule } from '@angular/router';
 
 import { BasicComponent } from './certificado/basic.component';
 import { AccionComponente } from './accion/accion.component';
-import { AdvancedtableComponent } from './advancedtable/advancedtable.component';
 
 const routes: Routes = [
     {
